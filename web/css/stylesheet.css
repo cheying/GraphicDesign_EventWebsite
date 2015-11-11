@@ -1,0 +1,103 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    background-color: #777;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* V-Con Header */
+.vConHeaderDiv{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.vConHeaderImg{
+    width: 100%;
+    right: 0;
+    left: 0;
+    padding: 0;
+}
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 502px;
+    width: 1170px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 502px;
+    margin: auto;
+}
+
+header.carousel .fill {
+    width: 1170px;
+    height: 502px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Header Style */
+
+
+/* Footer Styles */
+
+#fixedFooter{
+    color: #777;
+    background-color: #0f0f0f;
+    width: 100%;
+    margin-bottom: 0;
+    height: 5%;
+    text-align: center;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
