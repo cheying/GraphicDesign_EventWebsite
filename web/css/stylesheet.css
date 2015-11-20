@@ -63,10 +63,35 @@ header.carousel .fill {
     background-size: cover;
 }
 
-/* 404 Page Styles */
+/* About Page Items */
 
-.error-404 {
-    font-size: 100px;
+.aboutItems{
+    font-size: 18pt;
+}
+
+.missStat{
+    font-size: 14pt;
+}
+
+/* Home Items */
+
+.loc{
+    font-size: 14pt;
+}
+
+/* Lineup Panels */
+
+.featured{
+    font-size: 18pt;
+ 
+   
+}
+.lineup{
+    font-size: 14pt; 
+   
+}
+.feat{
+    padding-right: 7px;
 }
 
 /* Header Style */
